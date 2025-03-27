@@ -83,7 +83,7 @@ const Contact = () => {
             <div className={classes.info}>
               <div className={classes.information}>
                 <FaMobileAlt className={classes.icon} />
-                <p>+1 (555) 555-5555.</p>
+                <p>+91 9552483520.</p>
               </div>
               <div className={classes.information}>
                 <FaEnvelope className={classes.icon} />
@@ -99,19 +99,19 @@ const Contact = () => {
               <p>Connect with us : </p>
               <div className={classes.social_icons}>
                 <a
-                  href="https://www.linkedin.com/in/om-gawande/"
+                  href="https://www.linkedin.com/in/prakash-patange-50a83b290/"
                   target="blank"
                 >
                   <FaInstagram />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/om-gawande/"
+                  href="https://www.linkedin.com/in/prakash-patange-50a83b290/"
                   target="blank"
                 >
                   <FaLinkedinIn />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/om-gawande/"
+                  href="https://www.linkedin.com/in/prakash-patange-50a83b290/"
                   target="blank"
                 >
                   <FaTwitter />
@@ -175,3 +175,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
