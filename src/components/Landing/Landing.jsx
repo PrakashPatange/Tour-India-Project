@@ -50,24 +50,6 @@ const Landing = () => {
             spectacular landscapes and largest tiger reserve
           </h2>
           <div className={classes.btn_container}>
-            <a href="/explore">
-              <Button
-                label="Explore"
-                padding="16px 32px"
-                bgColor="#327c8e"
-                color="#fff"
-                fontSize="24px"
-              />
-            </a>
-            <a href="/contact">
-              <Button
-                label="Contact Us"
-                padding="16px 32px"
-                bgColor="#fff"
-                color="#000"
-                fontSize="24px"
-              />
-            </a>
           </div>
         </div>
         <div className={classes.column2}>
@@ -79,3 +61,4 @@ const Landing = () => {
 };
 
 export default Landing;
+
