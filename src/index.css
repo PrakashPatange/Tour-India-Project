@@ -1,0 +1,99 @@
+:root {
+  --ff-abril-fatface: "Abril Fatface", cursive;
+  --ff-comforter-brush: "Comforter Brush", cursive;
+  --ff-heebo: "Heebo", sans-serif;
+  --mikado-blue: hsl(207, 98%, 50%);
+  --mikado-yellow: hsl(47, 98%, 50%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  /* background-color: #000000; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a {
+  all: unset;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.app {
+  text-align: center;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+/* Button Filters */
+.button-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.button-wrapper > button {
+  height: 2rem;
+  padding: 0 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.button-wrapper > button.active {
+  background: black;
+  color: white;
+}
+
+/* Image */
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 14rem 2rem;
+  margin-top: 2rem;
+  margin-bottom: 200px;
+}
+.image-container > .image-card {
+  color: #000;
+
+  border-radius: 5px;
+  position: relative;
+  height: 15rem;
+}
+.image-card {
+  height: auto;
+  color: #000;
+}
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image-card h2 {
+  position: absolute;
+  bottom: 0;
+  left: 1rem;
+  font-size: 1rem;
+  text-shadow: 2px 2px black;
+}
+.chose_a_Section {
+  font-size: 40px;
+  margin-top: 20px;
+  font-family: var(--ff-comforter-brush);
+  color: var(--mikado-yellow);
+}
